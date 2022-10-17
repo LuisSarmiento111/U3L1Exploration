@@ -49,7 +49,7 @@ public class BooleanGames {
      */
     public boolean isOnesDigit(int num) {
         String numberAsString = Integer.toString(number);
-        return numberAsString == "yes";
+        return num == number % 10;
     }
     public boolean isFirstDigit(int num) {
         String numberAsString = Integer.toString(number);
